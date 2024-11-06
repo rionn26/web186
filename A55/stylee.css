@@ -1,0 +1,44 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: aquamarine;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: brown;
+}
+p::first-line{
+    background-color: grey;
+    color: aqua;
+}
+p::first-letter{
+    background-color: black;
+}
+.discription::before{
+content: "BEFORE";
+background-color: blue;
+color: white
+}
+.p1::before{
+    content: "AFTER";
+    background-color: brown;
+    color: wheat;
+    content: "✈";
+}
+.p2::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+}
+.p2::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+}

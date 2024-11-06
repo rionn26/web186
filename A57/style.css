@@ -1,0 +1,18 @@
+:root{
+    --ngjyraH1:red;
+}
+.hero{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 3, 61,  0.8) 0%,
+        rgba(0, 160, 255, 0.8) 100%
+    ),
+        url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/800px-Altja_j%C3%B5gi_Lahemaal.jpg");
+    
+        background-size: cover;
+}
+h1{
+    color:var(--ngjyraH1);
+}

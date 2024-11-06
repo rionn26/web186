@@ -1,0 +1,12 @@
+img{
+    width: 200px;
+    height: 200px;
+    transform: scale(1);
+    transition: 3s ease-in-out;
+}
+img:hover{
+    transition: 3s ease-in-out;
+    width: 300px;
+    height: 300px;
+    transform: scale(2);
+    }

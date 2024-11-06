@@ -1,0 +1,31 @@
+.div1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.div2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+.first-row{
+    display: flex;
+}
+.div3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.div4{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+.second-row{
+    display: flex;
+}
+.main{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}

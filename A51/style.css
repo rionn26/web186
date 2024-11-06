@@ -1,0 +1,36 @@
+img{
+    opacity: 0.3;
+    cursor: pointer;
+}
+img:hover{
+    opacity: 1;
+}
+.drop-btn{
+    background-color: black;
+    color: white;
+    /* display: inline-block; */
+    padding: 16px;
+}
+
+.drop-content a {
+    display: block;
+    text-decoration: none;
+    background-color: grey ;
+    color: white;
+    /* display: inline-block; */
+    position: absolute;
+  
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.drop-content {
+    background-color: grey;
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .drop-content {
+    display: block;
+}
